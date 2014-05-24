@@ -1,0 +1,331 @@
+body {
+	background-image: url("/WildBook/bg.jpg");
+	background-attachment:fixed;
+	background-size: cover;
+	font-family:"Tahoma";
+	img{cursor:pointer; width:0.5cm; height:0.5cm;}
+}
+div.main {
+	background:white;
+	width:625px;
+	padding:10px;
+	border: 1px solid white;
+	border-radius:10px;
+	position:relative;
+	top:50px;
+	margin-left:auto;
+	margin-right:auto;
+}
+div.mainpage {
+	width:800px;
+	padding:10px;
+	border-radius:10px;
+	position:relative;
+	top:50px;
+	left:10%;
+}
+div.diarypost {
+	border-radius:10px;	
+	padding:5px;
+	width:550px;
+	position:absolute;	
+	left:225px;
+	top:10px;
+}
+.diarypost img {
+	max-width: 100%;
+	max-height: 100%;
+}
+div.innerdiary {
+	text-align:center;
+	width:540px;
+	margin-left:auto;
+	margin-right:auto;
+}
+div.friend {
+	background:lightgrey;
+	border: 1px solid transparent;
+	border-radius:10px;	
+	padding:10px;
+	width:195px;
+	margin-right:auto;
+	position:relative;
+}
+div.inner {
+	position:relative;
+	border:1px solid;
+	border-radius:5px;
+	padding:10px;
+	margin:10px;
+}
+.sidebar {margin-left:auto;
+		margin-right:auto;width:912px;}
+#sidebar ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+#sidebar li {
+	float:left;
+}
+#sidebar a:link,a:visited{
+	display:block;
+	width:220px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color:#4c8bff;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+#sidebar a:hover,a:active{
+	background-color:#5d96ff;
+}
+.sidebarprof {margin-left:auto;
+		margin-right:auto;
+		width:1140px;}
+#sidebarprof ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+#sidebarprof li {
+	float:left;
+}
+#sidebarprof a:link,a:visited{
+	display:block;
+	width:220px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color:#4c8bff;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+#sidebarprof a:hover,a:active{
+	background-color:#5d96ff;
+}
+div.messbox {
+	background:white;
+	width:500px;
+	padding:10px;
+	border: 1px solid white;
+	border-radius:10px;
+	position:relative;
+	top:50px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.messbox table {width:100%;}
+div.messageborder {
+	position:relative;
+	border:1px solid;
+	border-radius:5px;
+	padding:10px;
+	margin:10px;
+}
+div.activitiesnotliked {
+	width:350px;
+	margin-left:auto;
+	margin-right:auto
+}
+div.newactivity {
+	width:350px;
+	margin-left:auto;
+	margin-right:auto
+}
+div.mFromUser {
+	background:white;
+	padding:5px;
+	border: 1px solid white;
+	border-radius:5px;
+	margin:5px;
+	position:relative;
+}
+div.mBody {
+	background:white;
+	height:200px;
+	padding:5px;
+	border: 1px solid white;
+	border-radius:5px;
+	margin:5px;
+	position:relative;
+}
+div.locationsliked {
+	margin-left:auto;
+	margin-right:auto
+}
+div.locationsnotliked {
+	width:350px;
+	margin-left:auto;
+	margin-right:auto
+}
+div.newlocation {
+	width:350px;
+	margin-left:auto;
+	margin-right:auto
+}
+div.lookuploc {
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+div.googlemaps {
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+div.activitiesnotliked select {width:150px;}
+div.locationsnotliked select {width:150px;}
+div.newlocation select {width:150px;}
+#login {
+	width:200px;
+	margin-left:auto;
+	margin-right:auto;	
+}
+#navbar {
+	width:13.5em;
+	padding: .25em 0em .25em 0em;
+}
+ #navbar ul { 
+	margin: 0; 
+	padding: 0px; 
+	list-style-type: none; 
+	text-align: center; 
+	background-color: #000; 
+} 
+#navbar ul li {
+	margin:0;
+	padding:0;
+	list-style:none;
+} 
+#navbar ul a:link { 
+   margin: 0; 
+   padding: .2em 0em .2em .4em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; 
+   background-color: #4d8cba; 
+   color: #ffffff; 
+   display: block; 
+}
+#navbar ul a:active { 
+   margin: 0; 
+   padding: .25em .5em .25em .5em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; 
+   background: #4d8cba; 
+   color: #ffffff; 
+   display: block; 
+}
+#navbar ul a:visited { 
+   margin: 0; 
+   padding:  .25em .5em .25em .5em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; 
+   background: #4d8cba; 
+   color: #ffffff; 
+   display: block; 
+}
+#navbar ul li a:hover { 
+   margin: 0; 
+   padding: .2em 0em .2em .4em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; 
+   background-color: #30c9e0; 
+   color: #ffffff; 
+   display: block; 
+}
+#biobox {
+	border:1px solid black;
+	border-radius:5px;
+	padding:2px;
+	margin:2px;
+}
+#innerprofilepost {
+	text-align:center;
+}
+.editcenter {
+	width:510px;
+	margin-left:auto;
+	margin-right:auto;		
+}
+.searchbox {
+	width:270px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	top:30px;
+}
+div.usermain {
+	width:850px;/*width:625px;*/
+	padding:10px;
+	position:relative;
+	top:50px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.profilebutton {
+	background:white;
+	padding:10px;
+	width:325px;
+	border-radius:10px;	
+	margin-top:10px;
+	margin-bottom:10px;
+	position:relative;
+	text-align:center;
+}
+.aboutme {
+	background:white;
+	padding:10px;
+	width:325px;
+	border-radius:10px;	
+	margin-top:10px;
+	margin-bottom:10px;
+	position:relative;
+}
+#profilepost{
+	width:525px;
+	margin-right:auto;
+	position:absolute;
+	left:375px;
+	top:40px;
+}
+#profilepost img{
+	max-width: 100%;
+	max-height: 100%;
+}
+.profilefriend {
+	background:white;
+	border-radius:10px;	
+	padding:10px;
+	width:325px;	
+	margin-top:10px;
+	margin-bottom:10px;
+	position:relative;
+}
+.profileact {
+	background:white;
+	border-radius:10px;	
+	padding:10px;
+	width:325px;
+	margin-top:10px;
+	margin-bottom:10px;
+	position:relative;
+}
+.profileloc {
+	background:white;
+	border-radius:10px;	
+	padding:10px;
+	width:325px;
+	margin-top:10px;
+	margin-bottom:10px;
+	position:relative;
+}
